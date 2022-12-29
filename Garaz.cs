@@ -53,6 +53,11 @@ namespace Program
         {
             // i tu wlasnie jest ta metoda ktora ma dodawać do tablicy 'samochody' wlasnie ten samochod ktory masz w argumencie tej metody.
             // na ten moment ta metoda przypisuje tylko jeden samochod i koniec.
+            // tu rowniez byla mowa o modyfikowaniu 'liczbaSamochodow' i tu ma zachodzic inkrementacja czyli..
+            liczbaSamochodow++;
+            // lub
+            liczbaSamochodow = liczbaSamochodow + 1;
+
 
             if (liczbaSamochodow == 0)
             {
@@ -67,11 +72,19 @@ namespace Program
         }
         public Samochod WyprowadzSamochod()
         {
-            // ta metoda zawsze bedzie zwracać null
+            // ta metoda zawsze bedzie zwracać null bo masz tylko jeden return null;
             // a powinnoa zwracać obiekt 'Samochod'
             // dodatkowo powinna wywalać ostatni element tablicy 'samochody'
-
             // jak to zrobic masz w ostatniej metodzie opisane
+
+
+
+            // tutaj rowniez modyfikacja 'liczbaSamochodow' czyli...
+            liczbaSamochodow--;
+            // lub
+            liczbaSamochodow = liczbaSamochodow - 1;
+
+
 
             if (liczbaSamochodow == 0)
             {
