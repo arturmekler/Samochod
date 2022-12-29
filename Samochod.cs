@@ -19,7 +19,7 @@ namespace Program
         public Samochod()
         {
             marka = "nieznana";
-            model = "nierznany";
+            model = "nieznany";
             iloscDrzwi = 0;
             pojemnoscSilnika = 0;
             srednieSpalanie = 0.0;
