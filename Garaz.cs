@@ -14,8 +14,6 @@ namespace Program
         private Samochod[] samochody;
         private string[] tablicaNazw;
 
-        private string
-
         // Konstruktor domyslny
         public Garaz()
         {
