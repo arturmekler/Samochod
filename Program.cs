@@ -42,7 +42,9 @@ namespace Program
             g1.Adres = "Polna 13";
             g1.Pojemnosc = 1;
             g1.WprowadzSamochod(s3);
-            //g1.WyprowadzSamochod();
+            g1.WypiszInfo();
+            Console.WriteLine("------------\n wyjechanie auta z garażu \n------------");
+            g1.WyprowadzSamochod();
             g1.WypiszInfo();
 
             Console.ReadKey();
